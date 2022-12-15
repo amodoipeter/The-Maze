@@ -8,8 +8,8 @@
 #include <SDL2/SDL.h>
 #include <SDL2/SDL_thread.h>
 #else
-#include <SDL.h>
-#include <SDL_thread.h>
+#include "SDL2/SDL.h"
+#include "SDL2/SDL_thread.h"
 #endif
 
 #include <stdio.h>
@@ -19,7 +19,6 @@
 #include <time.h>
 #include <unistd.h>
 #include <stdbool.h>
-#include <map.h>
 
 #include "structures.h"
 #include "macros.h"

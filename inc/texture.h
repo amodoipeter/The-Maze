@@ -1,9 +1,6 @@
 #ifndef TEXTURE_H
 #define TEXTURE_H
-#include <math.h>
-#include <SDL.h>
-#include <SDL_image.h>
-#include "map.h"
+#include "SDL2/SDL.h"
 #include "raycast.h"
 #include "sdl.h"
 #include <stdio.h>

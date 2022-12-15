@@ -1,10 +1,8 @@
 #ifndef PARSER_H
 #define PARSER_H
-#include <stdio.h>
-#include <stdlib.h>
-#include <string.h>
 #include "macros.h"
-
+#include "maze.h"
+#include "SDL2/SDL.h"
 FILE *open_file(char *filename);
 map_t read_file(FILE *fp);
 int count_rows(FILE *fp);

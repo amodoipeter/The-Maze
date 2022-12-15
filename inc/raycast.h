@@ -1,12 +1,10 @@
 #ifndef RAYCAST_H
 #define RAYCAST_H
 #include "player.h"
-#include <stdio.h>
-#include <stdlib.h>
-#include <string.h>
-#include <math.h>
-#include <SDL2/SDL.h>
+#include "SDL2/SDL.h"
 #include "macros.h"
+#include "SDL2/SDL.h"
+#include "maze.h"
 
 void raycast(sdl_instance *sdl, player *player,  map_t *map,
 		SDL_bool *map_active);

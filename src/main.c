@@ -3,7 +3,7 @@
 #include <stdlib.h>
 #include <string.h>
 #include <math.h>
-#include <SDL.h>
+#include "../inc/SDL2/SDL.h"
 
 /**
  * main - Entry point
