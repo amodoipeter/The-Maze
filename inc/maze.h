@@ -2,8 +2,8 @@
 #define MAZE_H
 
 #ifdef LINUX
-#include <SDL2/SDL.h>
-#include <SDL2/SDL_thread.h>
+#include "SDL2/SDL.h"
+#include "SDL2/SDL_thread.h"
 #elif defined(MAC)
 #include <SDL2/SDL.h>
 #include <SDL2/SDL_thread.h>
